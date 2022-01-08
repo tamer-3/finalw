@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.goods{
+    @apply flex flex-col justify-center
+    items-center h-screen font-mono py-40 lg:pl-32
+    bg-teal-700	
+}
+.goodsText{
+    @apply flex flex-col justify-center items-center
+}
+.goodsImg{
+    @apply h-full rounded mb-20 shadow
+}
